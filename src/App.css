@@ -1,0 +1,70 @@
+.App {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: black;
+}
+
+.quiz {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  left: 500px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+.next {
+  position: relative;
+  width: 10px;
+  left: 50px;
+  top: 0px;
+}
+
+.question {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  color: blanchedalmond;
+}
+
+.options {
+  position: relative;
+  left: 300px;
+  top: 30px;
+  color: blanchedalmond;
+}
+
+.eachOption {
+  background-color: black;
+  position: relative;
+  height: 30px;
+  margin: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.selectedOption {
+  background-color: royalblue;
+  position: relative;
+  height: 30px;
+  margin: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.result {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  left: 500px;
+  top: 150px;
+  border-radius: 10px;
+  color: azure;
+  text-align: center;
+  text-decoration: underline;
+  background-color: blueviolet;
+}
+
